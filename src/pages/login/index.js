@@ -1,13 +1,9 @@
-import { Col, Row } from "antd";
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import FacebookLogin from "react-facebook-login";
 import { GoogleLogin } from "react-google-login";
 
-import { FacebookProvider, Login, LoginButton } from "react-facebook";
+import { FacebookProvider, Login } from "react-facebook";
 import "./index.css";
 import LocalStorage from "../../defined/localStorage";
-import { ROUTER_NAME } from "../../router/routers";
 
 const LoginPage = () => {
   const responseFacebook = (res) => {

@@ -1,0 +1,128 @@
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    padding-inline: 1rem;
+}
+.wrap-header-icon {
+    width: fit-content;
+    height: 100%;
+}
+.logo-header {
+    width: auto;
+    height: 100%;
+}
+.content-weather {
+    padding: 1rem;
+}
+.wrap-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+}
+.wrap-input {
+    display: flex;
+    flex-direction: column;
+}
+.header-name {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.search-input {
+    width: 20rem;
+}
+.wrap-suggest {
+    min-width: 25rem;
+}
+.list-item-suggest {
+    padding: 0rem !important;
+    cursor: pointer;
+}
+.list-item-suggest:hover {
+    background-color: #ddd;
+}
+.item-suggest {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 0.5rem;
+}
+.wrap-search {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-weather-current {
+    width: 3rem;
+    height: 3rem;
+}
+.current-temp {
+    display: flex;
+    align-items: center;
+}
+.txt-current-temp {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.group-unit {
+    margin-left: 1.5rem;
+}
+.wrap-detail-weather {
+    width: 100%;
+    padding: 0 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+}
+.name-location {
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.desc-weather {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.list-detail-current {
+    margin-left: 1rem;
+}
+.txt-left {
+    text-align: left;
+}
+.item-daily {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-daily {
+    width: 3rem;
+    height: 3rem;
+}
+.wrap-daily {
+    width: 100%;
+}
+.wrap-hourly {
+    width: 100%;
+}
+.title-day {
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
